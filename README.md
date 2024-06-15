@@ -30,5 +30,5 @@ This repository contains the projects and exercises I complete as part of my cou
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at:
-- Email: mustafaahsankhan2004@gmail.com
+- Email: mustafaahsankhan2006@gmail.com
 - LinkedIn: https://www.linkedin.com/in/mustafa-ahsan-44696b28b/
