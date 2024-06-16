@@ -3,7 +3,7 @@ def PrintList(list):  # A function that prints all the elements in the list that
         print(x)
     print()
 
-for x in range(0, 3):
+for x in range(0, 3):  # (start, stop, step_size)
     print(x)
 
 str = "test string"
@@ -20,3 +20,8 @@ Cities = ["Islamabad", "Peshawar", "Karachi"]
 PrintList(Cities)
 
 # Lists ARE passed as reference # So any changes made in the function are reflected in the original list
+
+rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+
+for index, x in enumerate(rainbow, 5):  # This is another method to print lists  # You can even define the starting index
+    print(f"{index}) {x}")  # Using f-strings
