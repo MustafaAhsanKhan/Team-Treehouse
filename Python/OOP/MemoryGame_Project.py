@@ -8,7 +8,7 @@ class Game:
         self.card_options = ["Ham", "Egg", "Cat", "Dog", "Log", "Ice", "Bat", "Bag"]
         self.columns = ['A', 'B', 'C', 'D']
         self.locations = []
-        self.revealed = {}  # To track revealed cards
+        self.revealed = {}  # To track revealed cards  # This is a dictionary
 
         for col in self.columns:
             for x in range(1, self.size + 1):
