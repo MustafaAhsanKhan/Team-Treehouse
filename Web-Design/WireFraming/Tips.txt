@@ -1,0 +1,7 @@
+1) Wireframes are just the first step in designing something
+2) They are low-fidelity and are just meant to display your vision
+
+Take inspiration from the 'Wireframes" kit
+Use Apples "Human Interface Guidelines" to design for apple products
+Apple also provides an UI kit for Adobe Xd
+SF-pro font for IOS devices
