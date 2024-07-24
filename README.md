@@ -26,8 +26,6 @@ This repository contains the projects and exercises I complete as part of my cou
      The user would enter what items they wanted to buy and was shown the final list at the end
    - Status: COMPLETED
 
-(Include additional projects as you complete them)
-
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at:
 - Email: mustafaahsankhan2006@gmail.com
