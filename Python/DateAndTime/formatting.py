@@ -10,3 +10,4 @@ print(dt.strftime("%M minutes past %I %p on %B %d"))
 
 # These are some common formats
 
+x = datetine.datetime("7 October 2024", "%d %B %Y")
