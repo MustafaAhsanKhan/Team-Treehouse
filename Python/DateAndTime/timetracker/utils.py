@@ -34,7 +34,7 @@ def return_clients():
 
 def read_csv():
     data = []
-    with open('data.csv', newline='') as csvfile:
+    with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile, delimiter=',')
         for row in reader:
             data.append({
@@ -47,7 +47,7 @@ def read_csv():
 
 
 def check_if_job_running():
-    with open('data.csv', 'r') as csvfile:
+    with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', 'r') as csvfile:
         last_line = csvfile.readlines()[-1]
         last_character = last_line[-1]
         return last_character == ','

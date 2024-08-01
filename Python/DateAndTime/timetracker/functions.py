@@ -12,7 +12,7 @@ def start_tracking(client, description):
     start_time = ""
 
     # Code to append a new job to the CSV
-    with open('data.csv', 'a', newline='') as csvfile:
+    with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', 'a', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=',', lineterminator='')
         writer.writerow([client, description, start_time, ''])
 
@@ -27,7 +27,7 @@ def stop_tracking():
     end_time = ""
 
     # Code to append a new job to the CSV
-    with open('data.csv', 'a') as csvfile:
+    with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', 'a') as csvfile:
         writer = csv.writer(csvfile, delimiter=',')
         writer.writerow([end_time])
 
