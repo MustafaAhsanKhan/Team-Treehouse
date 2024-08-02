@@ -1,5 +1,7 @@
 import csv
 import utils
+import datetime
+from dateutil import relativedelta
 
 
 def start_tracking(client, description):
@@ -9,7 +11,10 @@ def start_tracking(client, description):
     # in the format: HH:MM(AM/PM) YYYY-MM-DD
     # for example: 09:40AM 2023-08-11
 
-    start_time = ""
+    now = datetime.datetime.now()
+    string_format = "%I:%M%p %Y-%m-%d"
+
+    start_time = datetime.datetime.strftime(now, string_format)
 
     # Code to append a new job to the CSV
     with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', 'a', newline='') as csvfile:
@@ -24,7 +29,10 @@ def stop_tracking():
     # in the format: HH:MM(AM/PM) YYYY-MM-DD
     # for example: 09:40AM 2023-08-11
 
-    end_time = ""
+    now = datetime.datetime.now()
+    string_format = "%I:%M%p %Y-%m-%d"
+
+    end_time = datetime.datetime.strftime(now, string_format)
 
     # Code to append a new job to the CSV
     with open('C:/Users/optay/OneDrive/Team Treehouse/Python/DateAndTime/timetracker/data.csv', 'a') as csvfile:
