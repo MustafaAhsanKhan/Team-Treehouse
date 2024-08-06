@@ -14,7 +14,7 @@ This repository contains the projects and exercises I complete as part of my cou
 
 ## Projects
 
-### Current Projects
+### Python
 
 1. [**Ticket Machine**](Python/MasterTicket_Project.py)
    - Description: This project incorporated all of the fundamental concepts of python.
