@@ -26,6 +26,16 @@ This repository contains the projects and exercises I complete as part of my cou
      The user would enter what items they wanted to buy and was shown the final list at the end
    - Status: COMPLETED
 
+3. [**Birthday App**](Python/DateAndTime/birthdayapp)
+   - Description: This app uses the "datetime" library and a csv file to keep track of birthdays.
+     The user can filter upcoming birthdays, find the age of a person, and even find the age difference of two people.
+  
+4. [**Time-Tracker App**](Python/DateAndTime/timetracker)
+   - Description: This app uses the "datetime" library and a csv file. This csv has fields such as start_time, end_time
+     and the client. This allows us to keep track of tasks done by each client and for how long.
+   - The app has functionality such as starting/ending tracking for a client, display total hours of work for a select client,
+     and display total hours worked in a specified time period.
+     
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at:
 - Email: mustafaahsankhan2006@gmail.com
