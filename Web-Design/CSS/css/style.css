@@ -22,3 +22,8 @@ div {
 #skills_list {
   border: 3px solid green;
 }
+
+.top-skill {
+  font-weight: bold;
+  background-color: teal;
+}
