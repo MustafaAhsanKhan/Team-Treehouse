@@ -1,13 +1,24 @@
 body {
-    text-align: center;
-  }
-header {
-    background-color: orange;
-  }
-h1 {
-    font-size: 90px;
-  }
+  text-align: center;
+}
+
 p {
-    font-size: 20px;
-  }
-  
+  color: midnightblue;
+}
+
+header {
+  background-color: orange;
+  color: white;
+}
+
+div {
+  background-color: lightblue;
+}
+
+#education {
+  border: 3px solid red;
+}
+
+#skills_list {
+  border: 3px solid green;
+}
