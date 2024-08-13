@@ -11,6 +11,11 @@ header {
   color: white;
 }
 
+header p {
+  background-color: snow;
+  border-bottom: 1px solid gray;
+}
+
 div {
   background-color: lightblue;
 }
