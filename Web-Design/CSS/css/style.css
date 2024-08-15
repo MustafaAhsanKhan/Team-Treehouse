@@ -1,3 +1,7 @@
+html {
+  font-size: 1em;
+}
+
 body {
   text-align: center;
 }
@@ -15,6 +19,7 @@ a:hover {
 }
 
 p {
+  font-size: 1.5rem;
   color: midnightblue;
 }
 
