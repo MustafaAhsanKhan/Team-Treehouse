@@ -1,9 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px;
 }
 
 article, aside, footer {
     margin: 8px;
+}
+
+aside img {
+    width: 600px;
 }
 
 header {
@@ -23,4 +31,10 @@ footer {
     color: #294969;
     font-size: 0.8rem;
     text-align: center;
+}
+
+#bio {
+    width: 600px;
+    background-color: mistyrose;
+    padding: 2rem;
 }
