@@ -1,3 +1,11 @@
+body {
+    margin: 0px;
+}
+
+article, aside, footer {
+    margin: 8px;
+}
+
 header {
     background-color: lightblue;
     color: ghostwhite;
@@ -5,4 +13,14 @@ header {
     border-width: 12px;
     border-color: black;
     border-style: solid;
+}
+
+footer {
+    width: 200px;
+    padding: 4px;
+    border: 2px solid gray;
+    margin: 30px auto 15px;
+    color: #294969;
+    font-size: 0.8rem;
+    text-align: center;
 }
