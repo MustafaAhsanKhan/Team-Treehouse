@@ -6,12 +6,20 @@ body {
     margin: 0px;
 }
 
+section {
+    min-height: 100vh;
+    padding: 1rem;
+    border-bottom: 2px dotted #666;
+    background-color: azure;
+}
+
 article, aside, footer {
     margin: 8px;
 }
 
-aside img {
-    width: 600px;
+aside img, #bio {
+    width: 100%;
+    max-width: 600px;
 }
 
 header {
@@ -34,7 +42,6 @@ footer {
 }
 
 #bio {
-    width: 600px;
     background-color: mistyrose;
     padding: 2rem;
 }
