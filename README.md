@@ -35,6 +35,8 @@ This repository contains the projects and exercises I complete as part of my cou
      and the client. This allows us to keep track of tasks done by each client and for how long.
    - The app has functionality such as starting/ending tracking for a client, display total hours of work for a select client,
      and display total hours worked in a specified time period.
+
+### Web-Design
      
 ## Contact
 If you have any questions or suggestions, feel free to reach out to me at:
