@@ -1,0 +1,16 @@
+/* Complete the challenge by writing CSS below */
+
+.logo {
+    position: absolute;
+    top: -45px;
+    left: 20px;
+  }
+  
+  .card {
+    position: relative;
+  }
+  
+  div.banner {
+    position: sticky;
+    top: 0;
+  }

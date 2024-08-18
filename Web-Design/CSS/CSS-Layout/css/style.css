@@ -13,7 +13,11 @@ section {
     background-color: azure;
 }
 
-article, aside, footer {
+article {
+    margin-top: 3rem;
+}
+
+aside, footer {
     margin: 8px;
 }
 
@@ -35,6 +39,10 @@ figcaption, aside img, #bio {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: lightblue;
     color: ghostwhite;
     padding: 15px 20px 10px 15px;
