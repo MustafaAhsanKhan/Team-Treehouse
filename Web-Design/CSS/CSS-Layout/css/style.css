@@ -17,7 +17,19 @@ article, aside, footer {
     margin: 8px;
 }
 
-aside img, #bio {
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    /* z-index: -1; */
+    bottom: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+
+figcaption, aside img, #bio {
     width: 100%;
     max-width: 600px;
 }
