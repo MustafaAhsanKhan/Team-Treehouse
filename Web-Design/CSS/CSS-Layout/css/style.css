@@ -77,3 +77,12 @@ ul li {
     background-color: yellow;
     text-align: center;
 }
+
+.small-img {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.clear {
+    clear: both;
+}
