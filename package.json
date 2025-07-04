@@ -1,0 +1,15 @@
+{
+  "name": "team-treehouse",
+  "version": "1.0.0",
+  "description": "Welcome to my GitHub repository where I'll be uploading my project files while learning coding at TeamTreehouse! This repository will serve as a portfolio of my progress and the various coding projects I work on throughout my learning journey.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
